@@ -95,7 +95,7 @@ Settings.rememberFilters = false;
 // Quality
 Settings.shows_default_quality = '720p';
 Settings.movies_default_quality = '1080p';
-Settings.moviesShowQuality = false;
+Settings.moviesShowQuality = true;
 Settings.movies_quality = 'all';
 
 // Subtitles
