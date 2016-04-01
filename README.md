@@ -41,6 +41,15 @@ Note: Move `torrent_collection.js` to `src/app/lib/views/torrent_collection.js` 
 
 Full instructions & troubleshooting tips can be found in the [Contributing Guide](CONTRIBUTING.md#contributing-to-popcorn-time)
 
+### Posible build problems when you build and how to fix it
+
+1. `sudo apt-get install nodejs-legacy`
+2. `sudo npm install urijs@^1.17.1`
+3. `sudo npm install typechecker@^2.0.8`
+4. `sudo npm install graceful-fs@^4.1.3`
+5. `sudo npm install -g bower grunt-cli`
+6.  `sudo apt-get install npm ` are needed if you don't have it and this too `sudo apt-get install nodejs`
+
 <a name="community"></a>
 ## Community
 

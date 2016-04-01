@@ -3,7 +3,7 @@
 # Adds a desktop entry for the current user
 
 create_desktop_entry() {
-	NAME="Popcorn Time"
+	NAME="Popcorn Time XPE"
 	COMMENT="Watch Movies and TV Shows instantly!"
 
 	CURRENT_DIR=$(pwd)
