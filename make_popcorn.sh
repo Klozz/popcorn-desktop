@@ -187,7 +187,7 @@ if [ "$rd_dep" = "yes" ]; then
     esac
 
     echo "Setting up Bower"
-    if bower install; then
+    if sudo bower install --allow-root; then
         echo "Bower successfully installed"
     else
         echo "Encountered an error while installing bower"
@@ -199,7 +199,7 @@ fi
 
 if grunt build; then
     echo "Popcorn Time built successfully!"
-    ./Create-Desktop-Entry
+    ./Create-Desktop-Entry y
     echo "Run 'grunt start' from inside the repository to launch the app"
     echo "Enjoy!"
 else

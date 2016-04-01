@@ -1,3 +1,5 @@
+### Popcorn time this repor are for personal usage and learning :)
+
 # [Popcorn Time](https://github.com/popcorn-official/popcorn-desktop)
 
 [![Build Status](https://travis-ci.org/popcorn-official/popcorn-desktop.svg?branch=master)](https://travis-ci.org/popcorn-official/popcorn-desktop)
